@@ -9,7 +9,7 @@ RegisterNetEvent('710-multiJob:Server:ChangeJob', function(args)
     elseif Config.usingQBmenu then 
         citizenid = args.citizenid
     end
-    local PlayerData = QBCore.Players[source].PlayerData
+    local PlayerData = Player.PlayerData
     Wait(1) -- to make sure client doesnt get log spam in chat for saving the player data 
     QBCore.Player.Save(source) -- Without this the players job might not be saved. If they change jobs to fast the database wont pick it up.
     Wait(1000) -- Wait to make sure the player data saves before we change it. (Without this if they change jobs to fast or just get a new job then change it wont save!)
