@@ -1,6 +1,6 @@
 ## This is a simple Multijob script I made cause too many people were charging $15+ for something so simple.
 ![image](https://i.imgur.com/pwxro0E.png)
-
+Credit: https://github.com/Kmack710/710-multiJob
 ## Add this to your Database! Without this it wont work! Be sure to change payment amount below to the amount of your unemployeed Paycheque 
 ```sql
 ALTER TABLE `players`
@@ -10,3 +10,10 @@ ALTER TABLE `players`
 ## Dependancies 
 - QBCore 
 - Qb-menu or Renzucontextmenu 
+
+## Flek's Updates:
+### v1.0.1:
+- Added a callback to grab the label of job_two allowing you to put that on the menu
+- Added support for old qbcore
+##
+![image](https://media.discordapp.net/attachments/854913681669095454/984098654858117190/unknown.png?width=211&height=107)
