@@ -10,3 +10,9 @@ ALTER TABLE `players`
 ## Dependancies 
 - QBCore 
 - Qb-menu or Renzucontextmenu 
+
+## Updates:
+### v1.0.1:
+- Added a callback to grab the label of job_two allowing you to put that on the menu
+- Added support for old qbcore
+![image](https://media.discordapp.net/attachments/854913681669095454/984098654858117190/unknown.png?width=211&height=107)
